@@ -10,6 +10,5 @@ fn gcd(a: u64, b: u64) -> u64 {
 }
 
 fn main() {
-    let _x = gcd(12, 18);
     println!("Hello, world!");
 }
