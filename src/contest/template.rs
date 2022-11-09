@@ -58,17 +58,6 @@ macro_rules! input {
     };
 }
 
-fn solve(src: &str) -> String {
-    input! {
-        source = src,
-        n: i32,    // 問題に合わせて記述
-        a: i32,
-        b: i32
-    }
-    // 問題を解くコード
-    "Result".to_string()
-}
-
 macro_rules! test {
     ($($input: expr => $output: expr), * $(,) *) => {
         #[test]
@@ -78,6 +67,17 @@ macro_rules! test {
             )*
         }
     };
+}
+
+fn solve(src: &str) -> String {
+    input! {
+        source = src,
+        n: i32,    // 問題に合わせて記述
+        a: i32,
+        b: i32
+    }
+    // 問題を解くコード
+    "Result".to_string()
 }
 
 test! {
