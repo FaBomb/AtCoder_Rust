@@ -1,6 +1,3 @@
-//------snippet------
-
-//-------------------
 macro_rules! read_value {
     ($iter:expr, ( $($t:tt),* )) => {
         ( $(read_value!($iter, $t)),* )
@@ -68,6 +65,10 @@ macro_rules! test {
         }
     };
 }
+
+//------snippet------
+
+//-------------------
 
 fn solve(src: &str) -> String {
     input! {
