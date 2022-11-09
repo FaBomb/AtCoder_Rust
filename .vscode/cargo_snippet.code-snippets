@@ -1,17 +1,4 @@
 {
-  "gcb": {
-    "scope": "rust",
-    "prefix": "gcb",
-    "body": [
-      "fn gcb(a: u64, b: u64) -> u64 {",
-      "    if b == 0 {",
-      "        a",
-      "    } else {",
-      "        gcb(b, a % b)",
-      "    }",
-      "}"
-    ]
-  },
   "gcd": {
     "scope": "rust",
     "prefix": "gcd",

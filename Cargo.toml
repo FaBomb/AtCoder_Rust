@@ -10,16 +10,8 @@ name = "main"
 path = "src/main.rs"
 
 [[bin]]
-name = "abc264_a"
-path = "src/contest/abc264/maina.rs"
-
-[[bin]]
-name = "abc264_b"
-path = "src/contest/abc264/mainb.rs"
-
-[[bin]]
-name = "abc264_c"
-path = "src/contest/abc264/mainc.rs"
+name = "abc265_b"
+path = "src/contest/abc265/mainb.rs"
 
 [dependencies]
 # 競技プログラマー向けのRustのスニペット管理ツール
